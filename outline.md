@@ -108,7 +108,7 @@ En début de partie, le produit de chaque équipe a:
 
 Un sprint consiste en 5 jours de développement par développeur. Sachant que le lead dev est aussi responsable de la coordination de l'équipe et du suivi des points: il ne dispose que de 3 jours de développement par sprint.
 
-Chaque jour travaillé, chaque développeur peut choisir d'effectuer une activité parmi celles de cette liste:
+Chaque jour travaillé, chaque développeur peut choisir d'effectuer une **activité** parmi celles de cette liste:
 - **Développement** de fonctionnalité => `valeur += 1`, `dette += 1`, `motivation += 5%`, `maitrise += 5%`, `maitrise de chaque autre équipier -= 1%`
 - **Documentation** => `dette -= 1`, `motivation -= 5%`, `maitrise de chaque équipier += 2%`
 - **Correctif** => `dette -= 1`, `maitrise += 5%`
@@ -120,28 +120,15 @@ Chaque jour travaillé, chaque développeur peut choisir d'effectuer une activit
 
 Tout au long du sprint, le tableau suivant doit être rempli par chaque équipe:
 
-Sprint nº`XX`  | Lead dev      | Développeur 2 | Développeur 3 | Développeur 4
----------------|---------------|---------------|---------------|---------------
-Lundi          | `activité`    | `activité`    | `activité`    | `activité`    
-               | `=> points`   | `=> points`   | `=> points`   | `=> points`   
----------------|---------------|---------------|---------------|---------------
-Mardi          | XXXXXXXXXXXXX | `activité`    | `activité`    | `activité`    
-               | XXXXXXXXXXXXX | `=> points`   | `=> points`   | `=> points`   
----------------|---------------|---------------|---------------|---------------
-Mercredi       | `activité`    | `activité`    | `activité`    | `activité`    
-               | `=> points`   | `=> points`   | `=> points`   | `=> points`   
----------------|---------------|---------------|---------------|---------------
-Jeudi          | XXXXXXXXXXXXX | `activité`    | `activité`    | `activité`    
-               | XXXXXXXXXXXXX | `=> points`   | `=> points`   | `=> points`   
----------------|---------------|---------------|---------------|---------------
-Vendredi       | `activité`    | `activité`    | `activité`    | `activité`    
-               | `=> points`   | `=> points`   | `=> points`   | `=> points`   
----------------|---------------|---------------|---------------|---------------
-Rétrospective  | motivation: % | motivation: % | motivation: % | motivation: %
-               | maitrise:   % | maitrise:   % | maitrise:   % | maitrise:   % 
----------------|---------------|---------------|---------------|---------------
-Rétro. produit | valeur: (pts)
-               | dette:  (pts)
+Sprint nº`XX`  | Lead dev        | Développeur 2   | Développeur 3   | Développeur 4   
+---------------|-----------------|-----------------|-----------------|-----------------
+Lundi          | `activité=>pts` | `activité=>pts` | `activité=>pts` | `activité=>pts` 
+Mardi          | XXXXXXXXXXXXXXX | `activité=>pts` | `activité=>pts` | `activité=>pts` 
+Mercredi       | `activité=>pts` | `activité=>pts` | `activité=>pts` | `activité=>pts` 
+Jeudi          | XXXXXXXXXXXXXXX | `activité=>pts` | `activité=>pts` | `activité=>pts` 
+Vendredi       | `activité=>pts` | `activité=>pts` | `activité=>pts` | `activité=>pts` 
+Rétrospective  | => total: `pts` | => total: `pts` | => total: `pts` | => total: `pts`
+Rétro. produit | => total valeur: `pts`<br/>=> total dette: `pts` | | |
 
 Occasionellement, le maître du jeu infligera une "tuile" (évènement non prévu) à chaque équipe, parmi cette liste:
 - **Bug en production**: `valeur -= arrondi(dette / 10)`
