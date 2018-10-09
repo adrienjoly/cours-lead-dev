@@ -17,7 +17,7 @@
     - lead dev est élu par ses supérieurs hiérarchiques ? -> NON
     - lead dev tranche quand il y a un conflit au sein de l'équipe sur une décision technique ? -> OUI
     - lead dev décide de qui fait quoi, quand, dans l'équipe ? -> NON
-    - lead dev doit détécter et planifier le remboursement de la dette technique ? -> OUI
+    - lead dev doit détecter et planifier le remboursement de la dette technique ? -> OUI
     - lead dev décide l'ordre de développement des fonctionnalités ? (roadmap) -> NON
     - lead dev est responsable du recrutement ? -> NON
     - lead dev est responsable du développement de carrière des ingénieurs de son équipe ? -> NON
@@ -25,7 +25,7 @@
   - Rappels sur les métiers, rôles et méthodologies de projet en entreprise
     - métiers / rôles:
       - lead dev:
-        - son role: aider et coordonner l'équipe de développement
+        - son rôle: aider et coordonner l'équipe de développement
         - son objectif: la pérennité technique du projet,
         - il doit être force d'initiative
         - il doit être en mesure de trancher sur les décisions techniques
@@ -33,15 +33,15 @@
         - référent d'une équipe de développement, il discute majoritairement avec son équipe, mais aussi avec autres équipes techniques + managers
         - le lead dev peut agir comme project manager, si besoin
       - project manager / scrum master:
-        - son role: planifier, suivre et faciliter le bon déroullement d'un projet
+        - son rôle: planifier, suivre et faciliter le bon déroulement d'un projet
         - son objectif: l'équipe produit un résultat répondant aux attentes, en respectant au mieux les budgets (temps, argent) et les éventuelles interdépendances avec autres projets, et les imprévus
       - product manager / product owner:
-        - son role: identifier les besoins des clients du produit, aider l'équipe de développement à prioriser les évolutions en fonction
+        - son rôle: identifier les besoins des clients du produit, aider l'équipe de développement à prioriser les évolutions en fonction
         - son objectif: une clientèle durablement satisfaite, et croissante + permettre à l'équipe de développement d'avoir un maximum d'impact et d'efficacité en focalisant sur ce qui apporte le plus de valeur
       - engineering manager:
-        - son role: suivre, conseiller et aider les développeurs à s'améliorer de manière continue, et à développer leur carrière. + recruter.
-        - son objectif: maintenir ou faire croitre la force et la qualité des développements
-    - méthodos
+        - son rôle: suivre, conseiller et aider les développeurs à s'améliorer de manière continue, et à développer leur carrière. + recruter.
+        - son objectif: maintenir ou faire croître la force et la qualité des développements
+    - méthodologies
       - Cycle en V
       - Gestion projet: Gantt, etc...
       - Agile / Scrum
@@ -56,7 +56,7 @@
       - page 503 (site inaccessible)
       - problème de facturation (ex: causé par un problème de monitoring)
       - fuite de données
-      - alteration de données
+      - altération de données
       - perte de données
     - problèmes de qualité / architecture du produit
       - régressions
@@ -77,7 +77,7 @@
       - l'équipe ne respecte pas la roadmap / le backlog
       - baisse de motivation et productivité de l'équipe
       - pas assez de monde en astreinte / équipier en astreinte qui ne répond jamais aux urgences
-    - demandes GDPR
+    - demandes RGPD
 - Jour 3, Objectif: recommandations pour pérennité, prise d’initiatives et accompagnement des membres de l’équipe
   - Brainstorming: quelles responsabilités du lead dev, au delà des crises ?
     - choix technologiques => veille et compréhension des valeurs et direction de l'entreprise
