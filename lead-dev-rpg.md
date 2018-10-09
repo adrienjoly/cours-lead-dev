@@ -36,7 +36,7 @@ Vendredi       | `activité=>pts` | `activité=>pts` | `activité=>pts` | `activ
 Rétrospective  | => total: `pts` | => total: `pts` | => total: `pts` | => total: `pts`
 Rétro. produit | => total valeur: `pts`<br/>=> total dette: `pts` | | |
 
-Occasionellement, le maître du jeu infligera une "tuile" (évènement non prévu) à chaque équipe, parmi cette liste:
+Occasionnellement, le maître du jeu infligera une "tuile" (évènement non prévu) à chaque équipe, parmi cette liste:
 - **Bug en production**: `valeur -= arrondi(dette / 10)`
 - **Turn-over**: le développeur ayant le plus de maitrise reprend son niveau d'origine (c.a.d. retour à `10%` de maitrise)
 - **Requête RGPD**: Chaque développeur qui a une maitrise de moins de `20%` perd une journée de travail pendant ce sprint.
