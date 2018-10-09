@@ -9,7 +9,35 @@
 - [ ] Définir critères d'évaluation des équipe/produits, ex: validation des propositions en fin de sprint, par le lead dev et/ou le client (moi ?).
 - [ ] Contrôle continu: comment noter individuellement les étudiants, sur la base de leur travail en ateliers ?
 
-## Outline
+## Objectifs du cours
+
+- Les étudiants doivent être capables de mener une petite équipe de développeurs sur un projet, chez leur futur employeur ou dans leur propre entreprise.
+- Dans le cadre de ce cours, chaque étudiant doit pouvoir s’essayer au moins une fois au rôle de lead dev, au travers de simulations de projets.
+
+## Contenu du cours
+
+- Les bases de la conduite de projet tech.
+- Démonstrations de workflows, et dans quels cas les appliquer.
+- Retours d'expérience, notamment chez Algolia.
+- Mise en pratique sur un projet de groupe.
+
+## Pré-requis / Connaissances préalables
+
+- Bases en gestion de projet
+- Bases de la méthodologie Agile
+
+## Évaluation des étudiants
+
+- 1 QCM individuel en fin de 1ère journée
+- Contrôle continu: notes individuelles basées sur les ateliers.
+
+## Programme du cours
+
+- Jour 1: sensibilisation aux responsabilités et complexités du lead dev
+- Jour 2: bases et outils pour la gestion de crise
+- Jour 3: recommandations pour pérennité, prise d’initiatives et accompagnement des membres de l’équipe
+
+## Outline du cours
 
 - Jour 1, Objectif: sensibilisation aux responsabilités et complexités du lead dev
   - QCM à main levée: cassage de mythes sur le lead dev
@@ -94,6 +122,6 @@
       - entraide et communication externe (ex: pour recrutement)
       - animation de l'équipe: hack day, off-site, et autres activités de team building
 
-## Atelier - Règles du jeu
+## Atelier "Lead Dev RPG"
 
-👉 [lead-dev-rpg.md](lead-dev-rpg.md)
+- Règles du jeu 👉 [lead-dev-rpg.md](lead-dev-rpg.md)
