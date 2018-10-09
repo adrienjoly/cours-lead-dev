@@ -47,14 +47,15 @@ Lors de la rétrospective de chaque sprint, les tableaux "Suivi de fonctionnalit
 
 Exemple de tableau "Suivi de fonctionnalités":
 
- Fonctionnalités terminées | F. à finaliser  | F. à commencer
----------------------------|-----------------|-----------------
- `Écran "Home"`            |                 |
- `Écran "About"`           | `Écran "Login"` |
-                           | `Écran "Signup"`|
-                           |                 | `Écran "Fb Login"`
-                           |                 | `Écran "Forget password"`
- Total: `2`                | Total: `2`      | Total: `2`
+| Fonctionnalités terminées | F. à finaliser  | F. à commencer
+|---------------------------|-----------------|-----------------
+| `Écran "Home"`            |                 |
+| `Écran "About"`           |                 |
+|| `Écran "Login"` |
+|| `Écran "Signup"`|
+||                 | `Écran "Fb Login"`
+||                 | `Écran "Forget password"`
+| Total: `2`                | Total: `2`      | Total: `2`
 
 Exemple de tableau "Problèmes et améliorations":
 
