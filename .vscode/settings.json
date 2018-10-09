@@ -1,9 +1,6 @@
 {
-  "spellright.language": [
-    "fr"
-  ],
-  "spellright.documentTypes": [
-    "plaintext",
-    "markdown"
+  "cSpell.language": ",fr",
+  "cSpell.words": [
+    "lead"
   ]
 }
