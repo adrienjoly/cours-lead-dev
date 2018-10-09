@@ -17,7 +17,7 @@ Selon le type de fonctionnalité, les schémas à produire peuvent être des pro
 
 Tout au long de chaque sprint, le tableau "Activités et ToDos" doit être rempli par chaque équipe. Chaque activité doit y être mentionnée de manière concise mais claire, accompagnée d'une estimation du degré finalisation de l'activité en pourcents.
 
-Exemple:
+Exemple de tableau "Activités et ToDos":
 
 Sprint nº`1`   | Lead dev        | Développeur 2   | Développeur 3   | Développeur 4   
 ---------------|-----------------|-----------------|-----------------|-----------------
@@ -47,20 +47,20 @@ Lors de la rétrospective de chaque sprint, les tableaux "Suivi de fonctionnalit
 
 Exemple de tableau "Suivi de fonctionnalités":
 
-Suivi nº`1`    | Fonctionnalités terminées | F. à finaliser  | F. à commencer
----------------|---------------------------|-----------------|-----------------
-               | `Écran "Home"`            |                 |
-               | `Écran "About"`           | `Écran "Login"` |
-               |                           | `Écran "Signup"`|
-               |                           |                 | `Écran "Fb Login"`
-               |                           |                 | `Écran "Forget password"`
-=> Totaux:     | `2`                       | `2`             | `2`
+ Fonctionnalités terminées | F. à finaliser  | F. à commencer
+---------------------------|-----------------|-----------------
+ `Écran "Home"`            |                 |
+ `Écran "About"`           | `Écran "Login"` |
+                           | `Écran "Signup"`|
+                           |                 | `Écran "Fb Login"`
+                           |                 | `Écran "Forget password"`
+ Total: `2`                | Total: `2`      | Total: `2`
 
 Exemple de tableau "Problèmes et améliorations":
 
-Rétro nº`1` | Impact                 | Cause(s)                | Amélioration(s) proposée(s)
-------------|------------------------|-------------------------|----------------------------------
-Problème 1  | `Site non fonctionnel` | `Mauvaise priorisation` | `Planifier tâches ensemble en début de sprint`
+Problème → Impact      | Cause(s)                | Amélioration(s) proposée(s)
+-----------------------|-------------------------|----------------------------------
+`Site non fonctionnel` | `Mauvaise priorisation` | `Planifier tâches ensemble en début de sprint`
 
 ## Évènements imprévisibles
 
