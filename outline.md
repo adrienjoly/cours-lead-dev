@@ -5,7 +5,8 @@
 - [x] Points à couvrir => outline
 - [x] QCM individuel en fin de 1ère journée
 - [x] Comment va se passer chaque atelier ? (règles du jeu)
-- [ ] Définir quelles actions sont sensés effectuer les étudiants pendant chaque sprint. Idée: leur faire faire des sketches UI (comme au cours lean management), avec validation (ou pas) des propositions en fin de sprint, par le lead dev et/ou le client (moi ?).
+- [x] Définir quelles actions sont sensés effectuer les étudiants pendant chaque sprint
+- [ ] Définir critères d'évaluation des équipe/produits, ex: validation des propositions en fin de sprint, par le lead dev et/ou le client (moi ?).
 - [ ] Contrôle continu: comment noter individuellement les étudiants, sur la base de leur travail en ateliers ?
 
 ## Outline

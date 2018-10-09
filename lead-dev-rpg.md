@@ -4,41 +4,51 @@ Le but de chaque équipe est d'obtenir un produit ayant le plus de **valeur** po
 
 Chaque équipe est constituée de 4 développeurs, dont 1 lead dev.
 
-En début de partie, le produit de chaque équipe a:
-- une **valeur** de `2 points` (nombre entier, intervalle: `]-∞;+∞[`)
-- un niveau de **dette technique** de `2 points` (nombre entier, intervalle: `[0;+∞[`)
-
-... et chaque développeur commence avec:
-- un niveau de **motivation** de `100%` (nombre entier, intervalle: `[0%;100%]`)
-- un niveau de **maitrise** de `10%` (nombre entier, intervalle: `[0%;100%]`)
-
-Un sprint consiste en 5 jours de développement par développeur. Sachant que le lead dev est aussi responsable de la coordination de l'équipe et du suivi des points: il ne dispose que de 3 jours de développement par sprint.
-
-Chaque jour travaillé, chaque développeur peut choisir d'effectuer une **activité** parmi celles de cette liste:
-- **Développement** de fonctionnalité => `valeur += 1`, `dette += 1`, `motivation += 5%`, `maitrise += 5%`, `maitrise de chaque autre équipier -= 1%`
-- **Documentation** => `dette -= 1`, `motivation -= 5%`, `maitrise de chaque équipier += 2%`
-- **Correctif** => `dette -= 1`, `maitrise += 5%`
-
-À chaque fin de sprint, le lead dev de chaque équipe mène une retrospective avec son équipe, en vue d'améliorer ses résultats lors du sprint suivant, et applique les règles suivantes:
-- `valeur -= 2` (causé par la concurrence et le vieillissement du produit)
-- pour chaque équipier: `motivation += maitrise * valeur > 10 ? 1 : -1` %
-- si `dette > 20`, chaque développeur perd 1 journée de travail
+Chaque sprint durera 30 minutes, et consistera à effectuer des **activités** parmi celles de cette liste:
+- 🖌 **Développement** d'une fonctionnalité => livrable: 1 ou 2 écrans dessinés sur papier, avec annotations
+- 🔍 **Revue** d'une fonctionnalité => livrable (sur papier): questions et suggestions d'améliorations
+- 🔧 **Correction** d'une fonctionnalité => livrable 1 ou 2 écrans dessinés sur papier, en remplacement de la version précédente
 
 Tout au long du sprint, le tableau suivant doit être rempli par chaque équipe:
 
 Sprint nº`XX`  | Lead dev        | Développeur 2   | Développeur 3   | Développeur 4   
 ---------------|-----------------|-----------------|-----------------|-----------------
-Lundi          | `activité=>pts` | `activité=>pts` | `activité=>pts` | `activité=>pts` 
-Mardi          | XXXXXXXXXXXXXXX | `activité=>pts` | `activité=>pts` | `activité=>pts` 
-Mercredi       | `activité=>pts` | `activité=>pts` | `activité=>pts` | `activité=>pts` 
-Jeudi          | XXXXXXXXXXXXXXX | `activité=>pts` | `activité=>pts` | `activité=>pts` 
-Vendredi       | `activité=>pts` | `activité=>pts` | `activité=>pts` | `activité=>pts` 
-Rétrospective  | => total: `pts` | => total: `pts` | => total: `pts` | => total: `pts`
-Rétro. produit | => total valeur: `pts`<br/>=> total dette: `pts` | | |
+Activité 1     |                 |                 |                 |                 
+Activité 2     |                 |                 |                 |                 
+Activité 3     |                 |                 |                 |                 
+...            |                 |                 |                 |                 
+ToDo 1         |                 |                 |                 |                 
+ToDo 2         |                 |                 |                 |                 
+ToDo 3         |                 |                 |                 |                 
+...            |                 |                 |                 |                 
 
-Occasionnellement, le maître du jeu infligera une "tuile" (évènement non prévu) à chaque équipe, parmi cette liste:
-- **Bug en production**: `valeur -= arrondi(dette / 10)`
-- **Turn-over**: le développeur ayant le plus de maîtrise reprend son niveau d'origine (c.a.d. retour à `10%` de maîtrise)
-- **Requête RGPD**: Chaque développeur qui a une maîtrise de moins de `20%` perd une journée de travail pendant ce sprint.
-- **Indécision**: Si le lead a moins de `50%` de maîtrise, chaque développeur (y compris lui-même) perd une journée de travail pendant ce sprint.
-- **Burn out**: le développeur le moins motivé perd deux jours de travail pendant ce sprint et repart à un niveau de maîtrise de `10%`.
+Chaque activité doit y être mentionnée de manière concise mais claire, accompagnée d'une estimation du degré finalisation de l'activité en pourcents.
+
+Exemple: `DEV Login 90%` signifie que le développeur a effectué une activité de *Développement* sur la fonctionnalité *Login*, et qu'il ne lui reste que 10% de travail pour terminer cette activité.
+
+Outre les activités, chaque développeur pourra lister les tâches (**ToDo**) que l'équipe ne devra pas oublier d'effectuer lors des prochains sprints, afin d'aider le suivi et la planification du développement du produit.
+
+Exemple: `Ajouter bouton pour créer compte avec Facebook`.
+
+À chaque fin de sprint, le lead dev de chaque équipe mène une **rétrospective** avec son équipe, en vue d'améliorer le process de développement du produit lors des sprints suivants:
+- Comptage du nombre de **fonctionnalités** terminées cette semaine, à finaliser et à commencer
+- Identification des **problèmes** survenus pendant ce sprint, et recueil d'idées de solutions
+- Mise en place d'**améliorations** (bonnes pratiques) pour les sprints suivants
+
+Lors de la rétrospective de chaque sprint, les tableaux suivants devront être remplis:
+
+Suivi nº`XX`   | Fonctionnalités terminées | F. à finaliser  | F. à commencer
+---------------|---------------------------|-----------------|-----------------
+               |                           |                 |
+               |                           |                 |
+               |                           |                 |
+=> Totaux:     |                           |                 |
+
+Rétro nº`XX`   | Impact          | Cause(s)        | Amélioration(s) proposée(s)
+---------------|-----------------|-----------------|----------------------------------
+Problème 1     |                 |                 |                                  
+Problème 2     |                 |                 |                                  
+Problème 3     |                 |                 |                                  
+...            |                 |                 |                                  
+
+Occasionnellement, le maître du jeu infligera des "tuile" (évènement non prévu) aux équipes, parmi [cette liste](tuiles.md).
