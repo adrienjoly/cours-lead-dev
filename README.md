@@ -1,15 +1,5 @@
 # Cours Lead Dev
 
-## TODO
-
-- [x] Points à couvrir => outline
-- [x] QCM individuel en fin de 1ère journée
-- [x] Comment va se passer chaque atelier ? (règles du jeu)
-- [x] Définir quelles actions sont sensés effectuer les étudiants pendant chaque sprint
-- [x] Définir critères d'évaluation des équipe/produits, ex: validation des propositions en fin de sprint, par le lead dev et/ou le client (moi ?).
-- [x] Contrôle continu: comment noter individuellement les étudiants, sur la base de leur travail en ateliers ?
-- [ ] Créer Google Form pour QCM notés
-
 ## Objectifs du cours
 
 - Les étudiants doivent être capables de mener une petite équipe de développeurs sur un projet, chez leur futur employeur ou dans leur propre entreprise.
