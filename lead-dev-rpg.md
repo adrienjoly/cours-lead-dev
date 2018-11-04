@@ -106,6 +106,3 @@ Chaque lead dev et développeur de chaque équipe sera évalué sur:
   - Accompagnement / motivation à s'améliorer
 
 => Note sur 10 points (3 x 3 points + 1 point d'appréciation)
-
-> Syllabus 👉 https://docs.google.com/document/d/1fKPfqufBCWMplQaMvStqWg1iIY9C-Ychb_qQ2kkGVQ4/edit
-> Grille 👉 https://docs.google.com/spreadsheets/d/1XD4K4UFXJa2gQP4oFTy5v1-yvYLgYzoZyqGfdcSVmuA/edit

@@ -6,8 +6,9 @@
 - [x] QCM individuel en fin de 1ère journée
 - [x] Comment va se passer chaque atelier ? (règles du jeu)
 - [x] Définir quelles actions sont sensés effectuer les étudiants pendant chaque sprint
-- [ ] Définir critères d'évaluation des équipe/produits, ex: validation des propositions en fin de sprint, par le lead dev et/ou le client (moi ?).
-- [ ] Contrôle continu: comment noter individuellement les étudiants, sur la base de leur travail en ateliers ?
+- [x] Définir critères d'évaluation des équipe/produits, ex: validation des propositions en fin de sprint, par le lead dev et/ou le client (moi ?).
+- [x] Contrôle continu: comment noter individuellement les étudiants, sur la base de leur travail en ateliers ?
+- [ ] Créer Google Form pour QCM notés
 
 ## Objectifs du cours
 
@@ -125,3 +126,9 @@
 ## Atelier "Lead Dev RPG"
 
 - Règles du jeu 👉 [lead-dev-rpg.md](lead-dev-rpg.md)
+
+## Annexes
+
+- Syllabus: [initial](https://docs.google.com/document/d/1fKPfqufBCWMplQaMvStqWg1iIY9C-Ychb_qQ2kkGVQ4/edit) + [final](https://docs.google.com/document/d/19MUDbW5AVlrVLYdcwhFwnEbP0b2lc1-axIy1flOjSJc/edit)
+- Tableaux de suivi pour étudiants: [Google Docs](https://docs.google.com/document/d/1_JM62VvSK_8xU9Zj6u6L9f8bYRIc2UK88NcIkEhtV7M/edit#)
+- Grille d'évaluation des ateliers: [Google Sheets](https://docs.google.com/spreadsheets/d/1XD4K4UFXJa2gQP4oFTy5v1-yvYLgYzoZyqGfdcSVmuA/edit) + [Google Docs](https://docs.google.com/document/d/1VC93IDM9nKfbVmZry0WYrWvNzMS51zdZjc-F3cYVZGQ/edit)
