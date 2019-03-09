@@ -1,4 +1,4 @@
-# Cours Lead Dev
+# [Adrien Joly](https://adrienjoly.com) - Cours Lead Dev
 
 ## Objectifs du cours
 
